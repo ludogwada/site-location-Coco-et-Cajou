@@ -1,1 +1,12 @@
-@import "./base/normalize.scss"
+@import "./base/normalize.scss";
+@import "./utils/variables.scss";
+@import "./base/base.scss";
+
+@import "./components/button.scss";
+
+
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+@import "./pages/cover.scss";
+@import "./pages/home.scss";
