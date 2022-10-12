@@ -7,6 +7,7 @@ import Hebergement from './pages/Hebergement';
 import Home from './pages/Home';
 import Cover from './pages/Cover';
 import Footer from './layout/Footer';
+import Gallery from './pages/gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
 			<Routes>
 				<Route path='/' element={<Cover />} />
 				<Route path='/home' element={<Home />} />
+				<Route path='/gallery' element={<Gallery />} />
 				<Route path=':hebergementId' element={<Hebergement />} />
 				<Route path='*' element={<Error />} />
 			</Routes>
