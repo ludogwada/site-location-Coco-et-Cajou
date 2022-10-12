@@ -12,7 +12,7 @@ const Gallery = () => {
 		<>
 			<Header page='home' />
 			<main className='home'>
-				<Slider pictures={photo} title={title} />
+				<Slider pictures={photo} title={title} gallery />
 			</main>
 		</>
 	);

@@ -346,6 +346,10 @@ template {
   background-color: #45858C;
 }
 
+main {
+  margin-left: 100px;
+}
+
 .button {
   width: 80px;
   height: 30px;
@@ -425,6 +429,21 @@ template {
     font-size: small;
   }
 }
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 40%;
+}
+
 .header {
   height: 100px;
   display: flex;
@@ -445,12 +464,17 @@ template {
   height: 100%;
 }
 
-.footer {
-  height: 80px;
-  background-color: #45858C;
+.headerLeft {
+  position: absolute;
   display: flex;
+  flex-direction: column;
+  height: 100%;
   align-items: center;
-  justify-content: center;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: black;
 }
 
 .cover {

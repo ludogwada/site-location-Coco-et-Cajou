@@ -38,9 +38,11 @@ function Slider(props) {
 					{activeIndex + 1} / {pictures.length}
 				</span>
 			</div>
-			<span className='slider__title'>
-				<h1>{title[activeIndex]}</h1>
-			</span>
+			{props.gallery ? (
+				<span className='slider__title'>
+					<h1>{title[activeIndex]}</h1>
+				</span>
+			) : null}
 		</section>
 	);
 }
