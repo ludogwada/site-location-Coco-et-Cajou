@@ -1,0 +1,77 @@
+[
+    {
+        "id": "bungCocoCover",
+        "title": "Bungalow Coco",
+        "cover": "/photos-bungalows/bungalowCoco-cover.jpg"
+    },
+    {
+        "id": "bungCoco1",
+        "title": "Bungalow Coco terrasse",
+        "cover": "/photos-bungalows/bungalowCoco1.jpg"
+    },
+    {
+        "id": "bungCoco2",
+        "title": "Bungalow Coco espace repas",
+        "cover": "/photos-bungalows/bungalowCoco2.jpg"
+    },
+    {
+        "id": "bungCoco3",
+        "title": "Bungalow Coco espace nuit ",
+        "cover": "/photos-bungalows/bungalowCoco3.jpg"
+    },
+    {
+        "id": "bungCoco4",
+        "title": "Bungalow Coco espace nuit enfant",
+        "cover": "/photos-bungalows/bungalowCoco4.jpg"
+    },
+    {
+        "id": "bungCoco5",
+        "title": "Bungalow Coco salle d'eau",
+        "cover": "/photos-bungalows/bungalowCoco5.jpg"
+    },
+    {
+        "id": "bungCoco6",
+        "title": "Bungalow Coco salle d'eau",
+        "cover": "/photos-bungalows/bungalowCajou6.jpg"
+    },
+    {
+        "id": "bungCajouCover",
+        "title": "Bungalow Cajou",
+        "cover": "/photos-bungalows/bungalowCajou-cover.jpg"
+    },
+    {
+        "id": "bungCajou1",
+        "title": "Bungalow Cajou espace nuit",
+        "cover": "/photos-bungalows/bungalowCajou1.jpg"
+    },
+    {
+        "id": "bungCajou1",
+        "title": "Bungalow Cajou espace nuit",
+        "cover": "/photos-bungalows/bungalowCajou2.jpg"
+    },
+    {
+        "id": "bungCajou3",
+        "title": "Bungalow Cajou salle d'eau",
+        "cover": "/photos-bungalows/bungalowCajou3.jpg"
+    },
+    {
+        "id": "bungCajou4",
+        "title": "Bungalow Cajou salle d'eau",
+        "cover": "/photos-bungalows/bungalowCajou4.jpg"
+    },
+    {
+        "id": "bungCajou5",
+        "title": "Bungalow Cajou espace repas",
+        "cover": "/photos-bungalows/bungalowCajou5.jpg"
+    },
+    {
+        "id": "bungCajou6",
+        "title": "Bungalow Cajou terrasse",
+        "cover": "/photos-bungalows/bungalowCajou6.jpg"
+    },
+    {
+        "id": "bungCajou7",
+        "title": "Bungalow Cajou coin detente",
+        "cover": "/photos-bungalows/bungalowCajou7.jpg"
+    }
+]
