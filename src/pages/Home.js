@@ -4,7 +4,7 @@ import Header from '../layout/Header';
 const Home = () => {
 	return (
 		<>
-			<Header page='home' />
+			<Header />
 			<main className='home'>
 				<section></section>
 			</main>

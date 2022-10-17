@@ -9,6 +9,7 @@ import Cover from './pages/Cover';
 import Gallery from './pages/Gallery';
 import Maps from './pages/Maps';
 import HeaderLeft from './layout/HeaderLeft';
+import Contact from './pages/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
 				<Route path='/home' element={<Home />} />
 				<Route path='/gallery' element={<Gallery />} />
 				<Route path='/maps' element={<Maps />} />
+				<Route path='/contact' element={<Contact />} />
 				<Route path=':hebergementId' element={<Hebergement />} />
 				<Route path='*' element={<Error />} />
 			</Routes>

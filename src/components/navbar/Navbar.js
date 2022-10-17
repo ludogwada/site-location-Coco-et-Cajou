@@ -18,9 +18,7 @@ const Navbar = () => {
 				<NavLink to='gallery' className='link'>
 					Galerie
 				</NavLink>
-				<NavLink to='reservation' className='link'>
-					Réservation
-				</NavLink>
+
 				<NavLink to='contact' className='link'>
 					Contact
 				</NavLink>

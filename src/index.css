@@ -351,11 +351,15 @@ main {
 }
 
 .button {
-  width: 80px;
+  width: 100px;
   height: 30px;
   margin: 20px;
   border-radius: 25px;
   box-shadow: 10px 5px 5px #A0D9D9;
+}
+
+.button:hover {
+  box-shadow: 10px 5px 5px #D9C589;
 }
 
 .slider {
@@ -444,6 +448,31 @@ main {
   margin-bottom: 40%;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.label {
+  padding: 10%;
+}
+
+.input {
+  width: 250px;
+}
+
+.textarea {
+  width: 250px;
+  height: 80px;
+}
+
+.errorMessage {
+  padding-top: 5px;
+  color: red;
+}
+
 .header {
   height: 100px;
   display: flex;
@@ -491,6 +520,20 @@ main {
 }
 
 .home {
+  height: 100%;
+}
+
+.contact {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
 

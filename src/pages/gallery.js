@@ -10,7 +10,7 @@ const Gallery = () => {
 
 	return (
 		<>
-			<Header page='home' />
+			<Header />
 			<main className='home'>
 				<Slider pictures={photo} title={title} gallery />
 			</main>
