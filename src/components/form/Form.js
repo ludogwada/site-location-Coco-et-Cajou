@@ -10,39 +10,47 @@ const Form = () => {
 	const [errorName, setErrorName] = useState(false);
 	const [errorEmail, setErrorEmail] = useState(false);
 	const [errorMessage, setErrorMessage] = useState(false);
-	const [errorPhone, setErrorPhone] = useState(false);
+	const [errorForm, setErrorForm] = useState(true);
 	const form = document.getElementById('form');
 
 	const fieldsValided = () => {
 		if (lastName.length < 2) {
 			setErrorName(true);
+			setErrorForm(true);
 		} else {
+			setErrorForm(false);
 			setErrorName(false);
 		}
-		if (phone.length < 10) {
-			setErrorPhone(true);
-		} else {
-			setErrorPhone(false);
-		}
+
 		if (message.length < 2) {
+			setErrorForm(true);
 			setErrorMessage(true);
 		} else {
+			setErrorForm(false);
 			setErrorMessage(false);
 		}
 		if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)) {
+			setErrorForm(true);
 			setErrorEmail(true);
 		} else {
+			setErrorForm(false);
 			setErrorEmail(false);
 		}
 	};
-
 	const sendMessage = () => {
+		if (errorForm === false) {
+			console.log(lastName, email, phone, message);
+			setLastName('');
+			setEmail('');
+			setPhone('');
+			form.reset();
+		}
+	};
+
+	const Validation = () => {
 		fieldsValided();
-		console.log(lastName, email, phone, message);
-		setLastName('');
-		setEmail('');
-		setPhone('');
-		form.reset();
+		console.log(errorForm);
+		sendMessage();
 	};
 
 	return (
@@ -76,7 +84,6 @@ const Form = () => {
 					type='tel'
 					name={phone}
 					set={setPhone}
-					error={errorPhone}
 					class='input'
 				/>
 				<Label
@@ -89,7 +96,7 @@ const Form = () => {
 					class='textarea'
 				/>
 			</form>
-			<Button text='Envoyer' action={sendMessage} />
+			<Button text='Envoyer' action={Validation} />
 		</>
 	);
 };

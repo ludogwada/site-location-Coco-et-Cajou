@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from '../components/slider/slider';
 import Header from '../layout/Header';
-import Bungalows from '../data/bungalows.json';
+import Bungalows from '../data/photos-bungalows.json';
 
 const Gallery = () => {
 	const [bungalows] = useState(Bungalows);

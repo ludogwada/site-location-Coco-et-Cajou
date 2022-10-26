@@ -9,10 +9,10 @@ const Navbar = () => {
 					Accueil
 				</NavLink>
 
-				<NavLink to='coco' className='link'>
+				<NavLink to='bungalow/coco' className='link'>
 					Bungalow Coco
 				</NavLink>
-				<NavLink to='cajou' className='link'>
+				<NavLink to='bungalow/cajou' className='link'>
 					Bungalow Cajou
 				</NavLink>
 				<NavLink to='gallery' className='link'>
