@@ -6,7 +6,7 @@ import Video from '../components/video/Video';
 const Cover = () => {
 	const navigate = useNavigate();
 	const redirection = () => {
-		navigate('/home');
+		navigate('/bungalow');
 	};
 	return (
 		<>

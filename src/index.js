@@ -18,11 +18,11 @@ root.render(
 			<HeaderLeft />
 			<Routes>
 				<Route path='/' element={<Cover />} />
-				<Route path='/home' element={<Home />} />
+				<Route path='/bungalow' element={<Home />} />
 				<Route path='/gallery' element={<Gallery />} />
 				<Route path='/maps' element={<Maps />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path=':hebergementId' element={<Hebergement />} />
+				<Route path='/bungalow/:hebergementId' element={<Hebergement />} />
 				<Route path='*' element={<Error />} />
 			</Routes>
 		</Router>
