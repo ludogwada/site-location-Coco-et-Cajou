@@ -1,7 +1,14 @@
 [
     {
-        "basse saison": "300€",
-        "moyenne saison": "400",
-        "haute saison": "500"
+        "period": "Basse saison",
+        "rate": "45"
+    },
+    {
+        "period": "Moyenne saison",
+        "rate": "55"
+    },
+    {
+        "period": "Haute saison",
+        "rate": "70"
     }
 ]
