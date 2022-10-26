@@ -15,10 +15,12 @@ const Navbar = () => {
 				<NavLink to='bungalow/cajou' className='link'>
 					Bungalow Cajou
 				</NavLink>
+				<NavLink to='availablity' className='link'>
+					Disponibilités
+				</NavLink>
 				<NavLink to='gallery' className='link'>
 					Galerie
 				</NavLink>
-
 				<NavLink to='contact' className='link'>
 					Contact
 				</NavLink>

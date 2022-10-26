@@ -700,4 +700,12 @@ main {
   height: 100%;
 }
 
+.calendar {
+  height: 100%;
+  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=index.css.map */
