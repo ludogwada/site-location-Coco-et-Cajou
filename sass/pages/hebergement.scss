@@ -20,8 +20,26 @@
         }
     }
 
+    &__details {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+    }
+
     &__equipement {
-        width: 40%;
+        width: 300px;
         min-width: 200px;
     }
+
+    &__tarifs {
+        width: 300px;
+        text-align: center;
+        background-color: $Color2;
+
+        &__detail {
+            padding: 5px;
+        }
+    }
+
 }

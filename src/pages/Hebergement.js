@@ -3,11 +3,14 @@ import { Navigate, useParams } from 'react-router-dom';
 import Collapse from '../components/collapse/Collapse';
 import Slider from '../components/slider/slider';
 import DescriptionBungalows from '../data/description-bungalow.json';
+import Price from '../data/tarifs.json';
+
 import Header from '../layout/Header';
 
 const Hebergement = () => {
 	const { hebergementId } = useParams();
 	const [hebergementData] = useState(DescriptionBungalows);
+	const [pricing] = useState(Price);
 
 	let hebergement = hebergementData.find(
 		(hebergement) => hebergement.id === hebergementId
@@ -27,13 +30,30 @@ const Hebergement = () => {
 						{hebergement.description}
 					</h2>
 				</section>
-				<section className='hebergement__equipement'>
-					<Collapse
-						title='Equipement'
-						description={hebergement.equipments.map((equipment, index) => (
-							<li key={index}>{equipment}</li>
-						))}
-					/>
+				<section className='hebergement__details'>
+					<section className='hebergement__equipement'>
+						<Collapse
+							title='Equipements'
+							description={hebergement.equipments.map((equipment, index) => (
+								<li key={index}>{equipment}</li>
+							))}
+						/>
+					</section>
+					<section>
+						<section className='hebergement__tarifs'>
+							<Collapse
+								title='Tarifs'
+								text='Minimun 5 nuits'
+								frais='Frais de ménage : 40€'
+								taxe='Taxe de séjour: 5%'
+								description={pricing.map((price, index) => (
+									<li className='hebergement__tarifs__detail' key={index}>
+										{price.period} : {price.rate}€ / nuit
+									</li>
+								))}
+							/>
+						</section>
+					</section>
 				</section>
 			</article>
 		</main>

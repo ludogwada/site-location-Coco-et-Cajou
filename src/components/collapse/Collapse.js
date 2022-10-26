@@ -3,7 +3,7 @@ import arrowUp from '../../assets/VectorUp.svg';
 import { useState } from 'react';
 
 function Collapse(props) {
-	const { title, description } = props;
+	const { title, description, text, frais, taxe } = props;
 	const [expanded, setExpanded] = useState(false);
 
 	return (
@@ -30,7 +30,10 @@ function Collapse(props) {
 			</header>
 			{expanded && (
 				<div className='collapse__description'>
+					<h3>{text}</h3>
 					<p>{description}</p>
+					<h4>{frais}</h4>
+					<h5>{taxe}</h5>
 				</div>
 			)}
 		</article>
