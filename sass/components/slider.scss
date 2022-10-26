@@ -7,21 +7,22 @@
 
     &__container {
         position: relative;
-        width: 100%;
+        width: 500px;
         height: 415px;
         border-radius: 25px;
         overflow: hidden;
     }
 
     &__image {
-        width: 100%;
+        width: 500px;
         height: 100%;
-        -o-object-fit: scale-down;
-        object-fit: scale-down;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
 
     &__leftArrow {
         position: absolute;
+        width: 25px;
         top: 40%;
         left: 23px;
         cursor: pointer;
@@ -29,6 +30,8 @@
 
     &__rightArrow {
         position: absolute;
+        width: 25px;
+
         top: 40%;
         right: 23px;
         cursor: pointer;

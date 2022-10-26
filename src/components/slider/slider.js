@@ -34,9 +34,9 @@ function Slider(props) {
 					alt='right arrow'
 					className={`slider__rightArrow ${OnePicture()}`}
 				/>
-				<span className='slider__nbPhoto'>
+				{/* <span className='slider__nbPhoto'>
 					{activeIndex + 1} / {pictures.length}
-				</span>
+				</span> */}
 			</div>
 			{props.gallery ? (
 				<span className='slider__title'>
