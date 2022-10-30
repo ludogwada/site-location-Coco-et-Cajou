@@ -4,11 +4,15 @@
         "rate": "45"
     },
     {
-        "period": "Moyenne saison",
+        "period": "Haute saison",
         "rate": "55"
     },
     {
-        "period": "Haute saison",
+        "period": "Vacances de d'été",
+        "rate": "65"
+    },
+    {
+        "period": "Vacances de Noël",
         "rate": "70"
     }
 ]

@@ -14,6 +14,8 @@ const Cover = () => {
 				<Video />
 			</section>
 			<Button action={redirection} text='Entrer' />
+			<h1 className='title'>Coco et Cajou Bungalows</h1>
+			<h2 className='title'>Location de bungalows en Guadeloupe</h2>
 		</main>
 	);
 };

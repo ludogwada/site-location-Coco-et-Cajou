@@ -700,6 +700,12 @@ main {
   height: 100%;
 }
 
+.title {
+  visibility: hidden;
+  margin: 0;
+  font-size: 0;
+}
+
 .video {
   display: flex;
 }

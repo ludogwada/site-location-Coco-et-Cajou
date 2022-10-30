@@ -17,7 +17,10 @@ const Home = () => {
 			<article className='home'>
 				<Banner image='/photos-bungalows/guadeloupe1.jpg' title='paysage' />
 				<section className='home__description'>
-					<Card photo='/photos-bungalows/exterieur1.jpg' />
+					<Card
+						photo='/photos-bungalows/exterieur1.jpg'
+						alt='photo exterieur'
+					/>
 					<span className='home__description__text'>
 						<p>
 							Coco et Cajou Bungalows sont situés dans la campagne de Sainte
@@ -26,7 +29,10 @@ const Home = () => {
 							des plages.
 						</p>
 					</span>
-					<Card photo='/photos-bungalows/exterieur2.jpg' />
+					<Card
+						photo='/photos-bungalows/exterieur2.jpg'
+						alt='photo exterieur'
+					/>
 				</section>
 				<section className='home__hebergement'>
 					<img src={separateur} alt='separateur' />
@@ -38,7 +44,7 @@ const Home = () => {
 								<section key={id}>
 									<h2 className='bungalow__title'>{bungalow.title}</h2>
 									<Link to={`/${id}`}>
-										<Card photo={bungalow.cover} title={bungalow.title} />
+										<Card photo={bungalow.cover} alt={bungalow.title} />
 									</Link>
 									<section className='bungalow__card'>
 										<img src={user} alt='user' />

@@ -8,7 +8,11 @@ const Header = () => {
 		<header className='header'>
 			<section className='header__logo'>
 				<NavLink to='/'>
-					<img src={Logo} alt='logo' className='header__logo__img' />
+					<img
+						src={Logo}
+						alt='logo coco et cajou bungalows'
+						className='header__logo__img'
+					/>
 				</NavLink>
 			</section>
 			<section className='header__menu'>
