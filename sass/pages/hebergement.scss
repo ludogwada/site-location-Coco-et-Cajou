@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin: 30px;
+    margin-left: 130px;
 
     &__description {
         display: flex;
@@ -35,10 +36,50 @@
     &__tarifs {
         width: 300px;
         text-align: center;
+        border-radius: 5px;
         background-color: $Color2;
 
         &__detail {
             padding: 5px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .hebergement {
+        margin-top: 100px;
+
+        &__description {
+            flex-direction: column;
+
+            &__text {
+                width: 100%;
+                margin: 0;
+            }
+        }
+
+        &__details {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__tarifs {
+            margin-top: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .hebergement {
+        @include marginPhone;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        &__description {
+            margin-top: 0;
         }
     }
 

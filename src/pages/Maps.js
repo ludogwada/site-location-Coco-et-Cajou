@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../layout/Header';
+import HeaderLeft from '../layout/HeaderLeft';
 
 const Home = () => {
 	return (
-		<>
+		<main>
 			<Header />
-			<main className='maps'>
+			<HeaderLeft />
+			<article className='maps'>
 				<section>
 					<iframe
 						title='maps'
@@ -16,8 +18,8 @@ const Home = () => {
 						loading='lazy'
 						referrerPolicy='no-referrer-when-downgrade'></iframe>
 				</section>
-			</main>
-		</>
+			</article>
+		</main>
 	);
 };
 

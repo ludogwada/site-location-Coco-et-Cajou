@@ -6,6 +6,7 @@ import DescriptionBungalows from '../data/description-bungalow.json';
 import Price from '../data/tarifs.json';
 
 import Header from '../layout/Header';
+import HeaderLeft from '../layout/HeaderLeft';
 
 const Hebergement = () => {
 	const { hebergementId } = useParams();
@@ -22,6 +23,7 @@ const Hebergement = () => {
 	return (
 		<main>
 			<Header />
+			<HeaderLeft />
 			<article className='hebergement'>
 				<h1>{hebergement.title}</h1>
 				<section className='hebergement__description'>

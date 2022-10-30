@@ -1,12 +1,20 @@
 .cover {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     background-color: $Color1;
     padding: 5%;
+    margin-left: 0;
+    height: 100%;
 }
 
 .video {
     display: flex;
+}
+
+@media screen and (max-width: 7000px) {
+    .cover {
+        margin-top: 100px;
+    }
 }

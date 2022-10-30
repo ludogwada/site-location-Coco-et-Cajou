@@ -1,0 +1,20 @@
+@mixin bar {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: white;
+
+}
+
+@mixin bar2 {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+@mixin marginPhone {
+    margin-left: 0;
+    margin-top: 100px;
+}

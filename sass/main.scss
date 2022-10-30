@@ -1,5 +1,6 @@
 @import "./base/normalize.scss";
 @import "./utils/variables.scss";
+@import "./utils/mixins.scss";
 @import "./base/base.scss";
 
 @import "./components/button.scss";
@@ -21,3 +22,5 @@
 @import "./pages/contact.scss";
 @import "./pages/maps.scss";
 @import "./pages/dispo.scss";
+@import "./pages/gallery.scss";
+@import "./pages/error.scss";

@@ -6,17 +6,15 @@ import Video from '../components/video/Video';
 const Cover = () => {
 	const navigate = useNavigate();
 	const redirection = () => {
-		navigate('/bungalow');
+		navigate('/home');
 	};
 	return (
-		<>
-			<main className='cover'>
-				<section className='video'>
-					<Video />
-				</section>
-				<Button action={redirection} text='Entrer' />
-			</main>
-		</>
+		<main className='cover'>
+			<section className='video'>
+				<Video />
+			</section>
+			<Button action={redirection} text='Entrer' />
+		</main>
 	);
 };
 

@@ -5,26 +5,26 @@ const Navbar = () => {
 	return (
 		<>
 			<nav className='navbar'>
-				<NavLink to='/' className='link'>
+				<NavLink to='/home' className='link'>
 					Accueil
 				</NavLink>
 
-				<NavLink to='bungalow/coco' className='link'>
+				<NavLink to='/coco' className='link'>
 					Bungalow Coco
 				</NavLink>
-				<NavLink to='bungalow/cajou' className='link'>
+				<NavLink to='/cajou' className='link'>
 					Bungalow Cajou
 				</NavLink>
-				<NavLink to='availablity' className='link'>
+				<NavLink to='/availablity' className='link'>
 					Disponibilités
 				</NavLink>
-				<NavLink to='gallery' className='link'>
+				<NavLink to='/gallery' className='link'>
 					Galerie
 				</NavLink>
-				<NavLink to='contact' className='link'>
+				<NavLink to='/contact' className='link'>
 					Contact
 				</NavLink>
-				<NavLink to='maps' className='link'>
+				<NavLink to='/maps' className='link'>
 					Localisation
 				</NavLink>
 			</nav>

@@ -1,6 +1,5 @@
 .home {
     margin-left: 100px;
-    height: 100%;
 
     &__description {
         display: flex;
@@ -14,6 +13,8 @@
             font-weight: bold;
             text-align: justify;
             line-height: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
     }
 
@@ -37,6 +38,11 @@
     width: 80%;
     margin-bottom: 100px;
 
+    &__title {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
     &__card {
         display: flex;
         justify-content: center;
@@ -45,5 +51,34 @@
             padding-left: 1%;
             padding-right: 5%;
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home {
+
+        margin-top: 100px;
+
+        &__description {
+            flex-direction: column;
+            align-items: center;
+
+            &__text {
+                width: 80%;
+                margin-top: 10px;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .bungalow {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+        @include marginPhone
     }
 }

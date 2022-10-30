@@ -1,17 +1,13 @@
-.contact {
+.gallery {
     display: flex;
-    height: 100%;
-    align-items: center;
     justify-content: center;
     margin-left: 100px;
-
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 700px) {
-    .contact {
+    .gallery {
         @include marginPhone;
         padding: 20px;
-        display: flex;
-        flex-direction: column;
     }
 }

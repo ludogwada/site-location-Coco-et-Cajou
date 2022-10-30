@@ -4,17 +4,19 @@ import Card from '../components/card/Card';
 import Header from '../layout/Header';
 import separateur from '../assets/separateur.png';
 import description from '../data/description-bungalow.json';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import user from '../assets/icon-user.svg';
 import plan from '../assets/icon-plan.svg';
+import HeaderLeft from '../layout/HeaderLeft';
 
 const Home = () => {
 	return (
-		<>
+		<main>
 			<Header />
-			<main className='home'>
+			<HeaderLeft />
+			<article className='home'>
 				<Banner image='/photos-bungalows/guadeloupe1.jpg' title='paysage' />
-				<article className='home__description'>
+				<section className='home__description'>
 					<Card photo='/photos-bungalows/exterieur1.jpg' />
 					<span className='home__description__text'>
 						<p>
@@ -25,8 +27,8 @@ const Home = () => {
 						</p>
 					</span>
 					<Card photo='/photos-bungalows/exterieur2.jpg' />
-				</article>
-				<article className='home__hebergement'>
+				</section>
+				<section className='home__hebergement'>
 					<img src={separateur} alt='separateur' />
 					<h2 className='home__hebergement__title'>Nos Bungalows</h2>
 					<section className='bungalow'>
@@ -34,9 +36,10 @@ const Home = () => {
 							let id = bungalow.id;
 							return (
 								<section key={id}>
-									<NavLink to={id}>
+									<h2 className='bungalow__title'>{bungalow.title}</h2>
+									<Link to={`/${id}`}>
 										<Card photo={bungalow.cover} title={bungalow.title} />
-									</NavLink>
+									</Link>
 									<section className='bungalow__card'>
 										<img src={user} alt='user' />
 										<p className='bungalow__card__text'>
@@ -51,9 +54,9 @@ const Home = () => {
 							);
 						})}
 					</section>
-				</article>
-			</main>
-		</>
+				</section>
+			</article>
+		</main>
 	);
 };
 
