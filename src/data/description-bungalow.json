@@ -2,15 +2,15 @@
     {
         "id": "coco",
         "title": "Bungalow Coco",
-        "cover": "/photos-bungalows/bungalowCoco-cover.jpg",
+        "cover": "/photos-bungalows/bungalowCoco-cover.webp",
         "pictures": [
-            "/photos-bungalows/bungalowCoco1.jpg",
-            "/photos-bungalows/bungalowCoco2.jpg",
-            "/photos-bungalows/bungalowCoco-cuisine.jpg",
-            "/photos-bungalows/bungalowCoco3.jpg",
-            "/photos-bungalows/bungalowCoco4.jpg",
-            "/photos-bungalows/bungalowCoco5.jpg",
-            "/photos-bungalows/bungalowCoco6.jpg"
+            "/photos-bungalows/bungalowCoco1.webp",
+            "/photos-bungalows/bungalowCoco2.webp",
+            "/photos-bungalows/bungalowCoco-cuisine.webp",
+            "/photos-bungalows/bungalowCoco3.webp",
+            "/photos-bungalows/bungalowCoco4.webp",
+            "/photos-bungalows/bungalowCoco5.webp",
+            "/photos-bungalows/bungalowCoco6.webp"
         ],
         "description": "Bungalow sur pilotis, niché dans un écrin de verdure. D'une surface de 25m2, la partie Nuit propose un couchage pour 3 personnes : un lit 'queen size' et un lit une personne et une salle d'eau avec douche à l'italienne. La partie jour se trouve sur la terrasse de plus de 15m2 avec sa cuisine equipée et son coin repas. Draps et serviettes fournis. Logement Non fumeurs.",
         "equipments": [
@@ -31,16 +31,16 @@
     {
         "id": "cajou",
         "title": "Bungalow Cajou",
-        "cover": "/photos-bungalows/bungalowCajou-cover.jpg",
+        "cover": "/photos-bungalows/bungalowCajou-cover.webp",
         "pictures": [
-            "/photos-bungalows/bungalowCajou1.jpg",
-            "/photos-bungalows/bungalowCajou2.jpg",
-            "/photos-bungalows/bungalowCajou3.jpg",
-            "/photos-bungalows/bungalowCajou4.jpg",
-            "/photos-bungalows/bungalowCajou5.jpg",
-            "/photos-bungalows/bungalowCajou6.jpg",
-            "/photos-bungalows/bungalowCajou7.jpg",
-            "/photos-bungalows/bungalowCajou8.jpg"
+            "/photos-bungalows/bungalowCajou1.webp",
+            "/photos-bungalows/bungalowCajou2.webp",
+            "/photos-bungalows/bungalowCajou3.webp",
+            "/photos-bungalows/bungalowCajou4.webp",
+            "/photos-bungalows/bungalowCajou5.webp",
+            "/photos-bungalows/bungalowCajou6.webp",
+            "/photos-bungalows/bungalowCajou7.webp",
+            "/photos-bungalows/bungalowCajou8.webp"
         ],
         "description": "Bungalow sur pilotis, niché dans un écrin de verdure. D'une surface de 25m2, la partie Nuit propose un couchage pour 2 personnes : lit 'queen size'et une salle d'eau avec douche à l'italienne. La partie jour se trouve sur la terrasse de plus de 15m2 avec sa cuisine equipée et son coin repas. Draps et serviettes fournis. Logement Non fumeurs.",
         "equipments": [

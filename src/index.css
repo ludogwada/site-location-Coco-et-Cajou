@@ -471,6 +471,7 @@ main {
     margin-top: 20px;
     position: fixed;
     width: 100%;
+    height: 90%;
     background-color: black;
     z-index: 1;
     right: 0;
@@ -490,7 +491,7 @@ main {
     cursor: pointer;
   }
   .link {
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     padding-right: 10px;
     width: 90%;
   }
@@ -881,6 +882,12 @@ main {
   margin-left: 100px;
 }
 
+@media screen and (max-width: 700px) {
+  .maps {
+    margin-left: 0;
+    margin-top: 100px;
+  }
+}
 .calendar {
   height: 100%;
   margin-left: 100px;

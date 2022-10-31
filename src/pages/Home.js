@@ -15,10 +15,10 @@ const Home = () => {
 			<Header />
 			<HeaderLeft />
 			<article className='home'>
-				<Banner image='/photos-bungalows/guadeloupe1.jpg' title='paysage' />
+				<Banner image='/photos-bungalows/guadeloupe1.webp' title='paysage' />
 				<section className='home__description'>
 					<Card
-						photo='/photos-bungalows/exterieur1.jpg'
+						photo='/photos-bungalows/exterieur1.webp'
 						alt='photo exterieur'
 					/>
 					<span className='home__description__text'>
@@ -30,7 +30,7 @@ const Home = () => {
 						</p>
 					</span>
 					<Card
-						photo='/photos-bungalows/exterieur2.jpg'
+						photo='/photos-bungalows/exterieur2.webp'
 						alt='photo exterieur'
 					/>
 				</section>

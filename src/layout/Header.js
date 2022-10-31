@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/LogoPict.jpg';
+import Logo from '../assets/LogoPict.webp';
 import BurgerBar from '../components/burgerBar/BurgerBar';
 
 const Header = () => {

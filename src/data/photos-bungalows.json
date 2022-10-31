@@ -2,86 +2,86 @@
     {
         "id": "bungCocoCover",
         "title": "Bungalow Coco",
-        "photo": "/photos-bungalows/bungalowCoco-cover.jpg"
+        "photo": "/photos-bungalows/bungalowCoco-cover.webp"
     },
     {
         "id": "bungCoco1",
         "title": "Bungalow Coco terrasse",
-        "photo": "/photos-bungalows/bungalowCoco1.jpg"
+        "photo": "/photos-bungalows/bungalowCoco1.webp"
     },
     {
         "id": "bungCoco2",
         "title": "Bungalow Coco espace repas",
-        "photo": "/photos-bungalows/bungalowCoco2.jpg"
+        "photo": "/photos-bungalows/bungalowCoco2.webp"
     },
     {
         "id": "bungCoco3",
         "title": "Bungalow Coco espace nuit ",
-        "photo": "/photos-bungalows/bungalowCoco3.jpg"
+        "photo": "/photos-bungalows/bungalowCoco3.webp"
     },
     {
         "id": "bungCoco4",
         "title": "Bungalow Coco espace nuit enfant",
-        "photo": "/photos-bungalows/bungalowCoco4.jpg"
+        "photo": "/photos-bungalows/bungalowCoco4.webp"
     },
     {
         "id": "bungCoco5",
         "title": "Bungalow Coco salle d'eau",
-        "photo": "/photos-bungalows/bungalowCoco5.jpg"
+        "photo": "/photos-bungalows/bungalowCoco5.webp"
     },
     {
         "id": "bungCoco6",
         "title": "Bungalow Coco salle d'eau",
-        "photo": "/photos-bungalows/bungalowCoco6.jpg"
+        "photo": "/photos-bungalows/bungalowCoco6.webp"
     },
     {
         "id": "bungCajouCover",
         "title": "Bungalow Cajou",
-        "photo": "/photos-bungalows/bungalowCajou-cover.jpg"
+        "photo": "/photos-bungalows/bungalowCajou-cover.webp"
     },
     {
         "id": "bungCajou1",
         "title": "Bungalow Cajou espace nuit",
-        "photo": "/photos-bungalows/bungalowCajou1.jpg"
+        "photo": "/photos-bungalows/bungalowCajou1.webp"
     },
     {
         "id": "bungCajou1",
         "title": "Bungalow Cajou espace nuit",
-        "photo": "/photos-bungalows/bungalowCajou2.jpg"
+        "photo": "/photos-bungalows/bungalowCajou2.webp"
     },
     {
         "id": "bungCajou3",
         "title": "Bungalow Cajou salle d'eau",
-        "photo": "/photos-bungalows/bungalowCajou3.jpg"
+        "photo": "/photos-bungalows/bungalowCajou3.webp"
     },
     {
         "id": "bungCajou4",
         "title": "Bungalow Cajou salle d'eau",
-        "photo": "/photos-bungalows/bungalowCajou4.jpg"
+        "photo": "/photos-bungalows/bungalowCajou4.webp"
     },
     {
         "id": "bungCajou5",
         "title": "Bungalow Cajou espace repas",
-        "photo": "/photos-bungalows/bungalowCajou5.jpg"
+        "photo": "/photos-bungalows/bungalowCajou5.webp"
     },
     {
         "id": "bungCajou6",
         "title": "Bungalow Cajou terrasse",
-        "photo": "/photos-bungalows/bungalowCajou6.jpg"
+        "photo": "/photos-bungalows/bungalowCajou6.webp"
     },
     {
         "id": "bungCajou7",
         "title": "Bungalow Cajou coin detente",
-        "photo": "/photos-bungalows/bungalowCajou7.jpg"
+        "photo": "/photos-bungalows/bungalowCajou7.webp"
     },
     {
         "id": "bungext1",
         "title": "Exterieur bungalows",
-        "photo": "/photos-bungalows/exterieur1.jpg"
+        "photo": "/photos-bungalows/exterieur1.webp"
     },
     {
         "id": "bungext2",
         "title": "Exterieur bungalows",
-        "photo": "/photos-bungalows/exterieur2.jpg"
+        "photo": "/photos-bungalows/exterieur2.webp"
     }
 ]
