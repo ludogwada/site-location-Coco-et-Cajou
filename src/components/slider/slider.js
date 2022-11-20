@@ -16,28 +16,60 @@ function Slider(props) {
 
 	return (
 		<section className='slider'>
-			<div className='slider__container'>
-				<img
-					onClick={() => setActiveIndex(prevImgIndex)}
-					src={VectorLeft}
-					alt='left arrow'
-					className={`slider__leftArrow ${OnePicture()}`}
-				/>
-				<img
-					src={pictures[activeIndex]}
-					alt={title[activeIndex]}
-					className='slider__image'
-				/>
-				<img
-					onClick={() => setActiveIndex(nextImgIndex)}
-					src={VectorRight}
-					alt='right arrow'
-					className={`slider__rightArrow ${OnePicture()}`}
-				/>
-				{/* <span className='slider__nbPhoto'>
-					{activeIndex + 1} / {pictures.length}
-				</span> */}
-			</div>
+			{props.gallery ? (
+				<div className='slider__containerGallery'>
+					<img
+						onClick={() => setActiveIndex(prevImgIndex)}
+						src={VectorLeft}
+						alt='left arrow'
+						className={`slider__leftArrow ${OnePicture()}`}
+					/>
+					<img
+						onClick={() => setActiveIndex(prevImgIndex)}
+						src={VectorLeft}
+						alt='left arrow'
+						className={`slider__leftArrow ${OnePicture()}`}
+					/>
+					<img
+						src={pictures[activeIndex]}
+						alt={title[activeIndex]}
+						className='slider__imageGallery'
+					/>
+					<img
+						onClick={() => setActiveIndex(nextImgIndex)}
+						src={VectorRight}
+						alt='right arrow'
+						className={`slider__rightArrow ${OnePicture()}`}
+					/>
+				</div>
+			) : (
+				<div className='slider__container'>
+					<img
+						onClick={() => setActiveIndex(prevImgIndex)}
+						src={VectorLeft}
+						alt='left arrow'
+						className={`slider__leftArrow ${OnePicture()}`}
+					/>
+					<img
+						onClick={() => setActiveIndex(prevImgIndex)}
+						src={VectorLeft}
+						alt='left arrow'
+						className={`slider__leftArrow ${OnePicture()}`}
+					/>
+					<img
+						src={pictures[activeIndex]}
+						alt={title[activeIndex]}
+						className='slider__image'
+					/>
+					<img
+						onClick={() => setActiveIndex(nextImgIndex)}
+						src={VectorRight}
+						alt='right arrow'
+						className={`slider__rightArrow ${OnePicture()}`}
+					/>
+				</div>
+			)}
+
 			{props.gallery ? (
 				<span className='slider__title'>
 					<h1>{title[activeIndex]}</h1>

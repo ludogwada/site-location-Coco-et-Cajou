@@ -1,15 +1,26 @@
 .maps {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     margin-left: 100px;
 
+    &__link {
+        font-size: xx-large;
+        color: black;
+        text-decoration: none;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
     .maps {
-        @include marginPhone
+        @include marginPhone;
+
+        &__link {
+            font-size: large;
+        }
     }
 
 }

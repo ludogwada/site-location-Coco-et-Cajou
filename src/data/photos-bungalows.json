@@ -50,6 +50,11 @@
         "photo": "/photos-bungalows/bungalowCajou2.webp"
     },
     {
+        "id": "bungCajou9",
+        "title": "Bungalow Cajou espace nuit",
+        "photo": "/photos-bungalows/bungalowCajou-chambre2.webp"
+    },
+    {
         "id": "bungCajou3",
         "title": "Bungalow Cajou salle d'eau",
         "photo": "/photos-bungalows/bungalowCajou3.webp"
@@ -63,6 +68,16 @@
         "id": "bungCajou5",
         "title": "Bungalow Cajou espace repas",
         "photo": "/photos-bungalows/bungalowCajou5.webp"
+    },
+    {
+        "id": "bungCajou10",
+        "title": "Bungalow Cajou espace cuisine",
+        "photo": "/photos-bungalows/bungalowCajou-cuisine1.webp"
+    },
+    {
+        "id": "bungCajou11",
+        "title": "Bungalow Cajou espace cuisine",
+        "photo": "/photos-bungalows/bungalowCajou-cuisine2.webp"
     },
     {
         "id": "bungCajou6",
@@ -83,5 +98,20 @@
         "id": "bungext2",
         "title": "Exterieur bungalows",
         "photo": "/photos-bungalows/exterieur2.webp"
+    },
+    {
+        "id": "bungext3",
+        "title": "Bungalow Cajou décoration accès",
+        "photo": "/photos-bungalows/decoexterieur1.webp"
+    },
+    {
+        "id": "bungext4",
+        "title": "Bungalow Cajou décoration accès",
+        "photo": "/photos-bungalows/decoexterieur2.webp"
+    },
+    {
+        "id": "bungext5",
+        "title": "Bungalow Cajou décoration accès",
+        "photo": "/photos-bungalows/decoexterieur3.webp"
     }
 ]

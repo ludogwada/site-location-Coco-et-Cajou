@@ -381,8 +381,21 @@ main {
   border-radius: 25px;
   overflow: hidden;
 }
+.slider__containerGallery {
+  position: relative;
+  width: 700px;
+  height: 615px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.slider__imageGallery {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+}
 .slider__image {
-  width: 500px;
+  width: 700px;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -422,7 +435,16 @@ main {
     min-width: 335px;
     border-radius: 10px;
   }
+  .slider__containerGallery {
+    height: 255px;
+    width: 100%;
+    min-width: 335px;
+    border-radius: 10px;
+  }
   .slider__image {
+    width: 100%;
+  }
+  .slider__imageGallery {
     width: 100%;
   }
   .slider__leftArrow {
@@ -641,6 +663,7 @@ main {
   display: flex;
   justify-content: center;
   background-color: black;
+  margin-left: 100px;
 }
 .header__logo {
   width: 100px;
@@ -665,6 +688,7 @@ main {
     top: 0;
     width: 100%;
     z-index: 1;
+    margin-left: 0;
   }
   .header__menu {
     display: flex;
@@ -876,16 +900,25 @@ main {
 }
 .maps {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   margin-left: 100px;
+}
+.maps__link {
+  font-size: xx-large;
+  color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 700px) {
   .maps {
     margin-left: 0;
     margin-top: 100px;
+  }
+  .maps__link {
+    font-size: large;
   }
 }
 .calendar {
