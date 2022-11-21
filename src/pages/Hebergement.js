@@ -4,6 +4,7 @@ import Collapse from '../components/collapse/Collapse';
 import Slider from '../components/slider/slider';
 import DescriptionBungalows from '../data/description-bungalow.json';
 import Price from '../data/tarifs.json';
+import Footer from '../layout/Footer';
 
 import Header from '../layout/Header';
 import HeaderLeft from '../layout/HeaderLeft';
@@ -21,44 +22,47 @@ const Hebergement = () => {
 	}
 
 	return (
-		<main>
+		<>
 			<Header />
 			<HeaderLeft />
-			<article className='hebergement'>
-				<h1>{hebergement.title}</h1>
-				<section className='hebergement__description'>
-					<Slider pictures={hebergement.pictures} title={hebergement.title} />
-					<h2 className='hebergement__description__text'>
-						{hebergement.description}
-					</h2>
-				</section>
-				<section className='hebergement__details'>
-					<section className='hebergement__equipement'>
-						<Collapse
-							title='Equipements'
-							description={hebergement.equipments.map((equipment, index) => (
-								<li key={index}>{equipment}</li>
-							))}
-						/>
+			<main>
+				<article className='hebergement'>
+					<h1>{hebergement.title}</h1>
+					<section className='hebergement__description'>
+						<Slider pictures={hebergement.pictures} title={hebergement.title} />
+						<h2 className='hebergement__description__text'>
+							{hebergement.description}
+						</h2>
 					</section>
-					<section>
-						<section className='hebergement__tarifs'>
+					<section className='hebergement__details'>
+						<section className='hebergement__equipement'>
 							<Collapse
-								title='Tarifs'
-								text='Minimun 5 nuits'
-								frais='Frais de ménage : 40€'
-								taxe='Taxe de séjour: 5%'
-								description={pricing.map((price, index) => (
-									<li className='hebergement__tarifs__detail' key={index}>
-										{price.period} : {price.rate}€ / nuit
-									</li>
+								title='Equipements'
+								description={hebergement.equipments.map((equipment, index) => (
+									<li key={index}>{equipment}</li>
 								))}
 							/>
 						</section>
+						<section>
+							<section className='hebergement__tarifs'>
+								<Collapse
+									title='Tarifs'
+									text='Minimun 5 nuits'
+									frais='Frais de ménage : 40€'
+									taxe='Taxe de séjour: 5%'
+									description={pricing.map((price, index) => (
+										<li className='hebergement__tarifs__detail' key={index}>
+											{price.period} : {price.rate}€ / nuit
+										</li>
+									))}
+								/>
+							</section>
+						</section>
 					</section>
-				</section>
-			</article>
-		</main>
+				</article>
+			</main>
+			<Footer />
+		</>
 	);
 };
 
