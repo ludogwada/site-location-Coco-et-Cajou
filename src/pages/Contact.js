@@ -6,20 +6,15 @@ import Header from '../layout/Header';
 import HeaderLeft from '../layout/HeaderLeft';
 
 const Contact = () => {
-	const mailto = () => {
-		window.location = 'mailto:cocoetcajoubungalows@gmail.com';
-	};
-
 	return (
 		<>
 			<Header />
 			<HeaderLeft />
 			<main>
 				<article className='contact'>
-					<h1 className='contact__title'>Contactez nous :</h1>
-					<section className='contact __form'>
-						<Button text='cocoetcajoubungalows@gmail.com' action={mailto} />
-						{/* <Form /> */}
+					<section className='contact__form'>
+						<h1 className='contact__title'>Contactez nous :</h1>
+						<Form />
 					</section>
 				</article>
 			</main>

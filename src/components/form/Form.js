@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import Button from '../button/Button';
+import emailjs from '@emailjs/browser';
 import Label from '../label/Label';
 
 const Form = () => {
+	const form = document.getElementById('form');
 	const [lastName, setLastName] = useState('');
 	const [email, setEmail] = useState('');
 	const [phone, setPhone] = useState('');
@@ -11,7 +12,6 @@ const Form = () => {
 	const [errorEmail, setErrorEmail] = useState(false);
 	const [errorMessage, setErrorMessage] = useState(false);
 	const [errorForm, setErrorForm] = useState(true);
-	const form = document.getElementById('form');
 
 	const fieldsValided = () => {
 		if (lastName.length < 2) {
@@ -37,9 +37,28 @@ const Form = () => {
 			setErrorEmail(false);
 		}
 	};
+	const sendEmail = () => {
+		let params = {
+			name: lastName,
+			email: email,
+			phone: phone,
+			message: message,
+		};
+		emailjs
+			.send('service_0trcweq', 'template_acc4h8r', params, 'UkL1-EhagRtRPBvHL')
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
 	const sendMessage = () => {
 		if (errorForm === false) {
 			console.log(lastName, email, phone, message);
+			sendEmail();
 			setLastName('');
 			setEmail('');
 			setPhone('');
@@ -47,58 +66,56 @@ const Form = () => {
 		}
 	};
 
-	const Validation = () => {
+	const Validation = (e) => {
+		e.preventDefault();
 		fieldsValided();
 		console.log(errorForm);
 		sendMessage();
 	};
 
 	return (
-		<>
-			<form id='form'>
-				<Label
-					input
-					htmlFor='name'
-					title='Nom'
-					type='text'
-					name={lastName}
-					set={setLastName}
-					error={errorName}
-					class='input'
-				/>
-				<Label
-					input
-					htmlFor='email'
-					title='Email'
-					type='email'
-					name={email}
-					set={setEmail}
-					error={errorEmail}
-					class='input'
-				/>
+		<form id='form' onSubmit={Validation}>
+			<Label
+				input
+				htmlFor='name'
+				title='Nom'
+				type='text'
+				name={lastName}
+				set={setLastName}
+				error={errorName}
+				class='input'
+			/>
+			<Label
+				input
+				htmlFor='email'
+				title='Email'
+				type='email'
+				name={email}
+				set={setEmail}
+				error={errorEmail}
+				class='input'
+			/>
 
-				<Label
-					input
-					htmlFor='phone'
-					title='Téléphone'
-					type='tel'
-					name={phone}
-					set={setPhone}
-					class='input'
-				/>
-				<Label
-					htmlFor='message'
-					title='Message'
-					type='text'
-					name={message}
-					set={setMessage}
-					error={errorMessage}
-					class='textarea'
-				/>
-			</form>
-			<Button text='Envoyer' action={Validation} />
-		</>
+			<Label
+				input
+				htmlFor='phone'
+				title='Téléphone'
+				type='tel'
+				name={phone}
+				set={setPhone}
+				class='input'
+			/>
+			<Label
+				htmlFor='message'
+				title='Message'
+				type='text'
+				name={message}
+				set={setMessage}
+				error={errorMessage}
+				class='textarea'
+			/>
+			<input type='submit' value='Send' className='button' />
+		</form>
 	);
 };
-
 export default Form;

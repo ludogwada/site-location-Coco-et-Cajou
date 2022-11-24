@@ -553,21 +553,32 @@ main {
 #form {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  margin-right: 30px;
+  align-items: center;
+  width: 350px;
 }
 
+@media screen and (max-width: 700px) {
+  #form {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+    width: 250px;
+  }
+}
 .label {
-  padding: 10%;
+  padding: 5%;
 }
 
 .input {
-  width: 250px;
+  width: 350px;
+  height: 40px;
+  font-size: x-large;
 }
 
 .textarea {
-  width: 250px;
-  height: 80px;
+  width: 350px;
+  font-size: x-large;
+  height: 100px;
 }
 
 .errorMessage {
@@ -576,6 +587,21 @@ main {
   color: red;
 }
 
+@media screen and (max-width: 1024px) {
+  .input,
+.textarea {
+    font-size: large;
+  }
+}
+@media screen and (max-width: 700px) {
+  .input,
+.textarea {
+    width: 250px;
+  }
+  .errorMessage {
+    margin-top: -5%;
+  }
+}
 .banner__img {
   opacity: 0.7;
   -o-object-fit: fill;
@@ -914,18 +940,39 @@ main {
   }
 }
 .contact {
-  display: flex;
   height: 100%;
-  align-items: center;
-  justify-content: center;
   margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+.contact__title {
+  font-size: 3em;
 }
 
+@media screen and (max-width: 1024px) {
+  .contact__title {
+    font-size: 2em;
+  }
+}
 @media screen and (max-width: 700px) {
   .contact {
     margin-left: 0;
     margin-top: 100px;
+    margin-top: 30px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .contact__form {
     display: flex;
     flex-direction: column;
   }
@@ -948,6 +995,9 @@ main {
   .maps {
     margin-left: 0;
     margin-top: 100px;
+  }
+  .maps__map {
+    height: 450px;
   }
   .maps__link {
     font-size: large;

@@ -18,6 +18,10 @@
     .maps {
         @include marginPhone;
 
+        &__map {
+            height: 450px;
+        }
+
         &__link {
             font-size: large;
         }

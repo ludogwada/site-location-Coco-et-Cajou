@@ -1,18 +1,45 @@
 .label {
-    padding: 10%;
+    padding: 5%;
 }
 
 .input {
-    width: 250px;
+    width: 350px;
+    height: 40px;
+    font-size: x-large;
 }
 
 .textarea {
-    width: 250px;
-    height: 80px;
+    width: 350px;
+    font-size: x-large;
+    height: 100px;
 }
 
 .errorMessage {
     padding-left: 10%;
     margin-top: -10%;
     color: red;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .input,
+    .textarea {
+
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .input,
+    .textarea {
+
+        width: 250px;
+    }
+
+    .errorMessage {
+        margin-top: -5%;
+
+
+    }
 }
