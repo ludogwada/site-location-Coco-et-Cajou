@@ -27,6 +27,9 @@ const Navbar = () => {
 				<NavLink to='/maps' className='link'>
 					Localisation
 				</NavLink>
+				<NavLink to='/review' className='link'>
+					Avis
+				</NavLink>
 			</nav>
 		</>
 	);

@@ -37,6 +37,9 @@ const BurgerBar = () => {
 					<NavLink to='/maps' className='link' onClick={handleShow}>
 						Localisation
 					</NavLink>
+					<NavLink to='/review' className='link' onClick={handleShow}>
+						Avis
+					</NavLink>
 				</nav>
 			) : null}
 		</>

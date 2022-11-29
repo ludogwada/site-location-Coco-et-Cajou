@@ -10,6 +10,7 @@ import Gallery from './pages/Gallery';
 import Maps from './pages/Maps';
 import Contact from './pages/Contact';
 import Dispo from './pages/Dispo';
+import Review from './pages/Review';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/availablity' element={<Dispo />} />
 				<Route path='/:hebergementId' element={<Hebergement />} />
+				<Route path='/review' element={<Review />} />
 				<Route path='*' element={<Error />} />
 			</Routes>
 		</Router>

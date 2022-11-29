@@ -1,0 +1,18 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 100px;
+    padding: 10px;
+
+    &__title {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+}
