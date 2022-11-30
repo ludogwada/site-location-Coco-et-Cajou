@@ -3,7 +3,10 @@
     flex-direction: column;
     width: 250px;
     border: solid gray 2px;
+    border-radius: 20px;
+    margin-bottom: 15px;
     background-color: $Color2;
+    box-shadow: 0px 4px 6px black;
 
     &__name {
         text-align: center;
