@@ -22,7 +22,7 @@ root.render(
 				<Route path='/gallery' element={<Gallery />} />
 				<Route path='/maps' element={<Maps />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path='/availablity' element={<Dispo />} />
+				<Route path='/availability' element={<Dispo />} />
 				<Route path='/:hebergementId' element={<Hebergement />} />
 				<Route path='/review' element={<Review />} />
 				<Route path='*' element={<Error />} />

@@ -480,12 +480,24 @@ main {
 .navbar__burger {
   display: none;
 }
+.navbar__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 20px;
+}
+.navbar__link:hover, .navbar__link:focus {
+  font-size: large;
+}
 
 .link {
   color: white;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 40%;
+  padding: 5px;
 }
 
 @media screen and (max-width: 700px) {
@@ -668,6 +680,18 @@ main {
   height: 100%;
 }
 
+.expanded {
+  overflow: hidden;
+  transition: height ease-in-out 0.9s;
+  height: 300px;
+}
+
+.hidden {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.9s;
+}
+
 @media screen and (max-width: 630px) {
   .collapse {
     height: auto;
@@ -829,6 +853,8 @@ main {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .home__description__text {
   width: 40%;
@@ -956,8 +982,8 @@ main {
   .hebergement {
     margin-left: 0;
     margin-top: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .hebergement__description {
     margin-top: 0;
@@ -1008,6 +1034,9 @@ main {
   align-items: center;
   height: 100%;
   margin-left: 100px;
+}
+.maps__map {
+  margin-top: 20px;
 }
 .maps__link {
   font-size: xx-large;

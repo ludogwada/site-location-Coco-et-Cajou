@@ -28,14 +28,14 @@ function Collapse(props) {
 					)}
 				</span>
 			</header>
-			{expanded && (
+			<section className={expanded ? 'expanded' : 'hidden'}>
 				<div className='collapse__description'>
 					<h3>{text}</h3>
 					<p>{description}</p>
 					<h4>{frais}</h4>
 					<h5>{taxe}</h5>
 				</div>
-			)}
+			</section>
 		</article>
 	);
 }

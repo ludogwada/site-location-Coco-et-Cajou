@@ -1,6 +1,7 @@
 import React from 'react';
 import icoFacebook from '../assets/icon-facebook.ico';
 import icoAirbnb from '../assets/icon-airbnb.ico';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 	return (
@@ -37,6 +38,9 @@ const Footer = () => {
 			</section>
 			<section className='footer__copyright'>
 				<p>© 2022 Ludogwada</p>
+			</section>
+			<section>
+				<Link to='../mentions.html'>Mentions légales</Link>
 			</section>
 		</footer>
 	);

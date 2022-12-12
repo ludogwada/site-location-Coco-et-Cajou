@@ -1,35 +1,28 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import pages from '../../data/pages.json';
 
 const Navbar = () => {
+	let activeStyle = {
+		backgroundColor: '#45858C',
+		borderRadius: '20px',
+	};
 	return (
 		<>
 			<nav className='navbar'>
-				<NavLink to='/home' className='link'>
-					Accueil
-				</NavLink>
-
-				<NavLink to='/coco' className='link'>
-					Bungalow Coco
-				</NavLink>
-				<NavLink to='/cajou' className='link'>
-					Bungalow Cajou
-				</NavLink>
-				<NavLink to='/availablity' className='link'>
-					Disponibilités
-				</NavLink>
-				<NavLink to='/gallery' className='link'>
-					Galerie
-				</NavLink>
-				<NavLink to='/contact' className='link'>
-					Contact
-				</NavLink>
-				<NavLink to='/maps' className='link'>
-					Localisation
-				</NavLink>
-				<NavLink to='/review' className='link'>
-					Avis
-				</NavLink>
+				{pages.map((page, index) => {
+					let id = index;
+					return (
+						<section key={id} className='navbar__link'>
+							<NavLink
+								to={page.link}
+								className='link'
+								style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+								{page.page}
+							</NavLink>
+						</section>
+					);
+				})}
 			</nav>
 		</>
 	);

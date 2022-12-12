@@ -1,0 +1,34 @@
+[
+    {
+        "page": "Accueil",
+        "link": "/home"
+    },
+    {
+        "page": "Bungalow Coco",
+        "link": "/coco"
+    },
+    {
+        "page": "Bungalow Cajou",
+        "link": "/cajou"
+    },
+    {
+        "page": "Disponibilités",
+        "link": "/availability"
+    },
+    {
+        "page": "Galerie",
+        "link": "/gallery"
+    },
+    {
+        "page": "Contact",
+        "link": "/contact"
+    },
+    {
+        "page": "Localisation",
+        "link": "/maps"
+    },
+    {
+        "page": "Avis",
+        "link": "/review"
+    }
+]

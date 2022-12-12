@@ -37,7 +37,7 @@ const Hebergement = () => {
 					<section className='hebergement__details'>
 						<section className='hebergement__equipement'>
 							<Collapse
-								title='Equipements'
+								title='Équipements'
 								description={hebergement.equipments.map((equipment, index) => (
 									<li key={index}>{equipment}</li>
 								))}
