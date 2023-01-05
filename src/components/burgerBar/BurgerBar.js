@@ -25,7 +25,7 @@ const BurgerBar = () => {
 					<NavLink to='/cajou' className='link' onClick={handleShow}>
 						Bungalow Cajou
 					</NavLink>
-					<NavLink to='/availablity' className='link' onClick={handleShow}>
+					<NavLink to='/availability' className='link' onClick={handleShow}>
 						Disponibilités
 					</NavLink>
 					<NavLink to='/gallery' className='link' onClick={handleShow}>

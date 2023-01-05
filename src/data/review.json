@@ -22,5 +22,29 @@
         "site": "Booking",
         "note": "(10/10)",
         "review": "Les 2 bungalows (sans vis à vis) sont au calme, en campagne, neufs, construits et décorés avec goût et au cœur d' un jardin luxuriant. Les plus belles plages de Grande Terre se trouvent à 10 min en voiture. Céline et Ludo proposent un accueil des plus chaleureux, sont présents au besoin (renseignements touristiques, vie locale...) Les draps, serviettes, torchons, produits de 1ère nécessité et ménage de fin de séjour sont compris. Le 1er petit déjeuner ainsi que des boissons fraiches sont offert. On se sent comme à la maison. J' ai passé un excellent séjour, merci à eux. Il n' y a rien à redire. Allez y les yeux fermés."
+    },
+    {
+        "id": "E1",
+        "name": "Emma",
+        "date": "Decembre 2022",
+        "site": "Booking",
+        "note": "(10/10)",
+        "review": "Les Bungalows sont très bien situés si vous souhaitez visiter Grande Terre, de très belles plages à environs 10 min en voiture et non loin de la Pointe des Châteaux et de Saint-François. De plus, les Bungalows sont identiques aux photos : la décoration est jolie, la cuisine en extérieur est super, nous avons vraiment aimé ce côté naturel avec la végétation autour du Bungalow !! Les propriétaires Céline et Ludovic sont très accueillants. En quête d'échange, ils nous ont offert des apéros, autour desquels nous avons partagé des anecdotes sur la Guadeloupe, et Céline nous a gentiment recommandé des activités à faire ! Encore merci pour tout !"
+    },
+    {
+        "id": "J1",
+        "name": "Jonatha",
+        "date": "Decembre 2022",
+        "site": "Booking",
+        "note": "(8/10)",
+        "review": "Les Bungalows sont très bien situés si vous souhaitez visiter Grande Terre, de très belles plages à environs 10 min en voiture et non loin de la Pointe des Châteaux et de Saint-François. De plus, les Bungalows sont identiques aux photos : la décoration est jolie, la cuisine en extérieur est super, nous avons vraiment aimé ce côté naturel avec la végétation autour du Bungalow !! Les propriétaires Céline et Ludovic sont très accueillants. En quête d'échange, ils nous ont offert des apéros, autour desquels nous avons partagé des anecdotes sur la Guadeloupe, et Céline nous a gentiment recommandé des activités à faire ! Encore merci pour tout !"
+    },
+    {
+        "id": "F1",
+        "name": "François et Faustine",
+        "date": "Decembre 2022",
+        "site": "Airbnb",
+        "note": "(5/5)",
+        "review": "Un accueil super, Céline et Ludo étaient aux petits oignons (ils nous ont même invités à boire l’apéro et nous ont proposé une dégustation de noix de coco) et le logement est top, fonctionnel, et une mention spéciale à la terrasse qui est un havre de paix où il fait bon de se détendre !"
     }
 ]

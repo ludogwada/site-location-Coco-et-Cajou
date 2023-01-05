@@ -39,9 +39,6 @@ const Footer = () => {
 			<section className='footer__copyright'>
 				<p>© 2022 Ludogwada</p>
 			</section>
-			<section>
-				<Link to='../mentions.html'>Mentions légales</Link>
-			</section>
 		</footer>
 	);
 };
