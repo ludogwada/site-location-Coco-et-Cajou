@@ -1,0 +1,37 @@
+.shopCard {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 250px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    border: solid gray 2px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: $Color2;
+    box-shadow: 0px 4px 6px black;
+
+    &__img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 100%;
+        height: 70%;
+    }
+
+    &__title {
+        margin: 2px;
+    }
+
+    &__price {
+        margin: 0;
+    }
+
+    &__text {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .shopCard {}
+}

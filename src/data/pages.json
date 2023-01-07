@@ -30,5 +30,9 @@
     {
         "page": "Avis",
         "link": "/review"
+    },
+    {
+        "page": "Boutique",
+        "link": "/shop"
     }
 ]

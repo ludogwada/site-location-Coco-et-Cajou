@@ -1,0 +1,86 @@
+[
+    {
+        "id": "b1",
+        "photo": "/photos-bijoux/bracelet_cauris1.jpg",
+        "name": "Bracelet Cauris",
+        "description": "Coquillage cauris partiellement recouvert de feuille d'or et perles en or 14k",
+        "price": "20€"
+    },
+    {
+        "id": "b2",
+        "photo": "/photos-bijoux/bracelet_cauris2.jpg",
+        "name": "Bracelet Cauris",
+        "description": "Coquillage cauris partiellement recouvert de feuille d'or et perles en or 14k",
+        "price": "20€"
+    },
+    {
+        "id": "b3",
+        "photo": "/photos-bijoux/bracelet_oursin1.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci, perles de cristal et or 14k",
+        "price": "35€"
+    },
+    {
+        "id": "b4",
+        "photo": "/photos-bijoux/bracelet_oursin2.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci et perles or 14k",
+        "price": "25€"
+    },
+    {
+        "id": "b5",
+        "photo": "/photos-bijoux/bracelet_oursin3.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci et perles or 14k",
+        "price": "25€"
+    },
+    {
+        "id": "b6",
+        "photo": "/photos-bijoux/bracelet_oursin4.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci, perles de cristal et or 14k",
+        "price": "35€"
+    },
+    {
+        "id": "b7",
+        "photo": "/photos-bijoux/bracelet_oursin5.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci, perles de cristal et or 14k",
+        "price": "35€"
+    },
+    {
+        "id": "b8",
+        "photo": "/photos-bijoux/bracelet_oursin6.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci et perles or 14k",
+        "price": "25€"
+    },
+    {
+        "id": "b9",
+        "photo": "/photos-bijoux/bracelet_oursin7.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci et perles or 14k",
+        "price": "25€"
+    },
+    {
+        "id": "b10",
+        "photo": "/photos-bijoux/bracelet_oursin8.jpg",
+        "name": "Bracelet Oursin",
+        "description": "Oursin naturel durci et perles or 14k",
+        "price": "25€"
+    },
+    {
+        "id": "b11",
+        "photo": "/photos-bijoux/bracelet_perle_eponge.jpg",
+        "name": "Bracelet Perle d'éponge",
+        "description": "Perle d'éponge fossilisée, pierres d'émeraude et perles or 14k",
+        "price": "25€"
+    },
+    {
+        "id": "c1",
+        "photo": "/photos-bijoux/collier_sable.jpg",
+        "name": "Collier pendentif sable",
+        "description": "Pendentif sable d'Anse Tillet  et feuille d'or",
+        "price": "32€"
+    }
+]

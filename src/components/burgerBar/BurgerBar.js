@@ -40,6 +40,9 @@ const BurgerBar = () => {
 					<NavLink to='/review' className='link' onClick={handleShow}>
 						Avis
 					</NavLink>
+					<NavLink to='/shop' className='link' onClick={handleShow}>
+						Boutique
+					</NavLink>
 				</nav>
 			) : null}
 		</>

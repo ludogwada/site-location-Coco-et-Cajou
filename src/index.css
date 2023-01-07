@@ -732,6 +732,36 @@ main {
   padding: 5px;
 }
 
+.shopCard {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  border: solid gray 2px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: #A0D9D9;
+  box-shadow: 0px 4px 6px black;
+}
+.shopCard__img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 70%;
+}
+.shopCard__title {
+  margin: 2px;
+}
+.shopCard__price {
+  margin: 0;
+}
+.shopCard__text {
+  margin: 5px;
+}
+
 .header {
   height: 100px;
   display: flex;
@@ -917,6 +947,7 @@ main {
   .home {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
   }
 }
 .hebergement {
@@ -982,6 +1013,7 @@ main {
   .hebergement {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -1016,6 +1048,7 @@ main {
   .contact {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
     margin-top: 30px;
     padding: 20px;
     display: flex;
@@ -1048,6 +1081,7 @@ main {
   .maps {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
   }
   .maps__map {
     height: 450px;
@@ -1068,6 +1102,7 @@ main {
   .calendar {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
   }
   iframe {
     width: 90%;
@@ -1084,6 +1119,7 @@ main {
   .gallery {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
     padding: 20px;
   }
 }
@@ -1108,6 +1144,7 @@ main {
   .review {
     margin-left: 0;
     margin-top: 100px;
+    margin-right: 0;
   }
 }
 .error {
@@ -1129,6 +1166,34 @@ main {
 }
 .redirection__h4 {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+  .error {
+    margin-left: 0;
+    margin-top: 100px;
+    margin-right: 0;
+    padding: 20px;
+  }
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  text-align: center;
+}
+.shop__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 630px) {
+  .shop {
+    margin-left: 0;
+    margin-top: 100px;
+    margin-right: 0;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -15,7 +15,7 @@ const Home = () => {
 		<>
 			<Header />
 			<HeaderLeft />
-			<main>
+			<main id='home'>
 				<article className='home'>
 					<Banner image='/photos-bungalows/guadeloupe1.webp' title='paysage' />
 					<section className='home__description'>
